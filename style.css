@@ -15,11 +15,11 @@
 .navigator{
 	background: rgba(10,10,10,0.8);/**/
 	border-bottom: 1px rgb(214,214,214) solid;
-	position: fixed;
+	position: absolute;
 	z-index: 100;
 	left: 50%;
 	width: 800px;
-	margin-left: -450px;
+	margin-left: -400px;
 	color: white;
 	}
 .title{
