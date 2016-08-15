@@ -4,7 +4,7 @@
 	position:absolute;
 	width: 800px;
 	left:50%;
-	margin-left: -470px;
+	margin-left: -480px;
 	}
 
 .clearfix:after{
@@ -19,7 +19,7 @@
 	z-index: 100;
 	left: 50%;
 	width: 800px;
-	margin-left: -470px;
+	margin-left: -480px;
 	color: white;
 	}
 .title{
