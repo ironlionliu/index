@@ -101,6 +101,7 @@ and (min-width : 1900px) {
 	display: block;
 	margin:25px auto;
 	width:188px;
+	line-height: 60px;
 	}	
 .privateinfo .skill{
 	text-align: right;
