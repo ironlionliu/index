@@ -167,7 +167,7 @@
 	}
 .education .educontent{
 	margin-top: 30px;
-	font-family: KaiTi;
+	font-family: STKaiTi;
 	}
 	
 	
@@ -193,7 +193,7 @@
 	}
 .post .postcontent{
 	margin-top: 30px;
-	font-family: KaiTi;
+	font-family: STKaiTi;
 	}
 .project{
 	width: 800px;
@@ -231,6 +231,6 @@
 	float:left;
 	margin-left: 20px;
 	width:350px;
-	font-family: KaiTi;
+	font-family: STKaiTi;
 	font-size: 16px;
 	}
