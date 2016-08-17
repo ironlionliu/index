@@ -132,6 +132,7 @@
 	}	
 .privateinfo .skill{
 	text-align: right;
+	line-height: 22px;
 	}
 .privateinfo .skillline{
 	display: inline-block;
@@ -153,7 +154,8 @@
 	width: 30px;
 	}
 .privateinfo .details .interest{
-	margin-top: 30px
+	margin-top: 30px;
+	line-height: 22px;
 	}
 
 	
