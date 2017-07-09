@@ -3,7 +3,7 @@
 .resume{
 	position:absolute;
 	width: 800px;
-	left:50%;
+	left: 65%;
 	margin-left: -480px;
 	}
 
@@ -17,7 +17,7 @@
 	border-bottom: 1px rgb(214,214,214) solid;
 	position: fixed;
 	z-index: 100;
-	left: 50%;
+	left: 65%;
 	width: 800px;
 	margin-left: -480px;
 	color: white;
@@ -56,7 +56,7 @@
 .contact .phone:after{
 	display: block;
 	font-size: 12px;
-	content: "13261539113";
+	content: "18801347824";
 	line-height: 22px;
 	margin-left: 26px;
 	}
@@ -111,7 +111,7 @@
 
 .privateinfo{
 	position: absolute;
-	left: 800px;
+	left: -200px;
 	width:200px;
 	height:2535px;
 	background: rgba(47,80,130,1);
@@ -165,8 +165,9 @@
 	
 	
 .education{
+	position:: absolute;
 	width: 800px;
-	margin: 0px auto;
+	left: 100px;
 	padding-top: 100px;
 	background: #EEEEEE;
 	}
