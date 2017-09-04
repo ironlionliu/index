@@ -1,64 +1,79 @@
 @charset "utf-8";
 
-.resume{
-	position:absolute;
-	width: 800px;
-	left:50%;
-	margin-left: -480px;
-	}
-
-.clearfix:after{
-	content: "";
-	display: block;
-	clear: both;
-	}
-.navigator{
-	background: rgba(10,10,10,0.8);/**/
-	border-bottom: 1px rgb(214,214,214) solid;
+.head{
+	margin-left: 50%;
 	position: fixed;
+	left: -500px;
 	z-index: 100;
-	left: 50%;
-	width: 800px;
-	margin-left: -480px;
+	width: 1000px;
+	height: 150px;
+	background: #385c96;
+	opacity: 0.9
+}
+.body{
+	margin-left: 50%;
+	position: absolute;
+	left:-500px;
+	top:150px;
+	width: 1000px;
+	height: 100%
+}
+
+.side{
+	float: left;
+	position: fixed;
+	width: 200px;
+	height:2535px;
+	background: #385c96;
+	opacity: 0.9;
 	color: white;
-	}
+}
+.main{
+	position: absolute;
+	left: 220px;
+	color: black;
+	font-size: 18px;
+}
+img.portrait{
+	width:100px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+ul.introduction{
+	font-size: 15px;
+	color: white;
+	text-align: left;
+	margin: 20px 20px 20px -20px;
+	line-height: 2em;
+}
+.img{
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+img#jlu{
+	width:150px;
+}
 .title{
 	float: left;
-	}
-.title_name{
-	font-family: simHei;
-	line-height:90px;
-	font-size:45px;
-	margin-left: 10px;
-	color: #eee;
-	}
-.title_position{
-	margin-left:30px;
-	line-height:90px;
-	font-size:20px;
-	color: #ddd;
-	}
-.contact{
-	position: absolute;
-	top:50px;
-	right:10px;
-	}
-.contact .phone{
-	float: left;
-	background-image: url("img/icon-title1.png");
-	background-position: 0px 0px;
-	background-repeat: repeat-y;
-	background-size: 22px auto;
-	background-clip: border-box;
+	margin: 50px 0px 0px 20px
+}
+span.name{
+	font-size: 40px;
+	text-align: left;
 	color: white;
-	margin-right: 10px;
-	}
-.contact .phone:after{
-	display: block;
-	font-size: 12px;
-	content: "13261539113";
-	line-height: 22px;
-	margin-left: 26px;
+}
+span.position{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin-left: 30px;
+
+}
+.contact{
+	margin-top: 75px;
+	margin-left: 460px;
+	margin-right: 30px;
 	}
 .contact .email{
 	float: left;
@@ -67,30 +82,24 @@
 	background-repeat: repeat-y;
 	background-size: 22px auto;
 	background-clip: content-box;
-	margin-right: 10px;
+	margin-right: 20px;
 	}
 .contact .link{
 	display: block;
-	font-size: 12px;
+	font-size: 16px;
 	color: white;
 	line-height: 22px;
 	margin-left: 26px;
 	}
 .contact .github{
 	float: left;
-	background-image: url("img/icon-title1.png");
-	background-position: 0px -32px;
+	background-image: url("img/github.png");
+	background-position: -2px -2px;
 	background-repeat: repeat-y;
-	background-size: 22px auto;
+	background-size: 25px auto;
 	background-clip: border-box;
-	margin-right: 10px;
-	}
-.contact .github:after{
-	display: block;
-	font-size: 12px;
-	content: "";
-	line-height: 22px;
-	margin-left: 26px;
+	margin-left: 10px;
+	margin-right: 30px;
 	}
 .contact .blog{
 	background: -ms-linear-gradient(top, #099,  #0BB);        /* IE 10 */
@@ -101,155 +110,195 @@
 	background: -o-linear-gradient(top, #099, #0BB);  /*Opera 11.10+*/
 	float: left;
 	border-radius: 3px;
-	width: 50px;
+	width: 70px;
 	height: 22px;
 	line-height: 22px;
-	font-size: 12px;
+	font-size: 16px;
 	color: white;
 	}
-	
-
-.privateinfo{
-	position: absolute;
-	left: 800px;
-	width:200px;
-	height:2535px;
-	background: rgba(47,80,130,1);
-	font-size: 16px;
-	color:white;
-	
+img.rating{
+		width:100px;
+		vertical-align: baseline;
+		line-height: 2em;
+		display: none
 	}
-.privateinfo .header{
-	display: block;
-	margin: 50px auto;
-	width: 80px;
-	}
-.privateinfo .details{
-	display: block;
-	margin:40px auto;
-	width:130px;
-	line-height: 32px;
-	}	
-.privateinfo .skill{
-	text-align: right;
-	line-height: 22px;
-	}
-.privateinfo .skillline{
-	display: inline-block;
-	margin-top:12px;
-	background: white;
-	height: 5px;
-	float: left;
-	}
-.privateinfo .js{
-	width: 50px;
-	}
-.privateinfo .html{
-	width: 20px;
-	}
-.privateinfo .python{
-	width: 20px;
-	}
-.privateinfo .css{
-	width: 40px;
-	}
-.privateinfo .php{
-	width: 30px;
-	}
-.privateinfo .details .interest{
-	margin-top: 30px;
-	line-height: 22px;
-	}
-
-	
-	
-	
-.education{
-	width: 800px;
-	margin: 0px auto;
-	padding-top: 100px;
-	background: #EEEEEE;
-	}
-.education .edutitle{
+li.name{
+	height: 50px;
+	width: 150px;
+	background-image: url(img/3stars.png);
+}
+div.introduction{
+	color: white;
+	line-height: 2em;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+div.rating{
+	margin-top: 0px;
+	background-image: url("img/3stars.png");
+	background-position: 75px 1px;
+	background-repeat: no-repeat;
+	background-size: 100px auto;
+	background-clip: content-box;
+}
+div.js{
+	background-image: url("img/4stars.png");
+}
+div.other{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+div.edutitle{
+	background-color: rgb(230,230,230);
 	background-image: url("img/edu.png");
-	background-position: 0px 0px;
 	background-repeat: no-repeat;
-	background-size: 30px auto;
 	background-clip: content-box;
-	}
-.education .edutitle:after{
-	content: "教育背景";
+	background-size: auto 40px;
+	background-position: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	width:760px;
+	margin:20px 20px 0px 20px;
+	border-radius: 20px 20px 0px 0px/20px 20px 0px 0px;
+
+}
+div.edutitle:after{
+	content:"教育背景";
 	display: block;
-	margin-left: 55px;
-	font-size: 28px;
-	line-height: 30px;
-	}
-.education .educontent{
-	margin-top: 30px;
-	font-family: STKaiTi;
-	}
-	
-	
-.post{
-	width: 800px;
-	margin: 0px auto;
-	background: #EEE;
-	}	
-.post .posttitle{
-	margin-top: 20px;
-	background-image: url("img/shijian.png");
-	background-position: 0px 0px;
+	margin-left: 80px;
+
+}
+div.educontent{
+	background-color: rgb(230,230,230);
+	width:760px;
+	margin:0px 20px 20px 20px;
+	padding-top: 20px;
+	border-radius: 0px 0px 20px 20px/0px 0px 20px 20px;
+	line-height: 2em;
+}
+div.honortitle{
+	background-color: rgb(230,230,230);
+	background-image: url("img/rongyu.png");
 	background-repeat: no-repeat;
-	background-size: 30px auto;
 	background-clip: content-box;
-	}
-.post .posttitle:after{
-	content: "任职、荣誉、实践";
+	background-size: auto 35px;
+	background-position: 8px;
+	font-size: 30px;
+	font-weight: bold;
+	width:760px;
+	margin:20px 20px 0px 20px;
+	border-radius: 20px 20px 0px 0px/20px 20px 0px 0px;
+
+}
+div.honortitle:after{
+	content:"荣誉奖励";
 	display: block;
-	margin-left: 55px;
-	font-size: 28px;
-	line-height: 30px;
-	}
-.post .postcontent{
-	margin-top: 30px;
-	font-family: STKaiTi;
-	}
-.project{
-	width: 800px;
-	background: #EEE;
-	margin: 0px auto;
-	}
-.project .projecttitle{
-	margin-top: 20px;
-	background-image: url("img/shijian.png");
-	background-position: 0px 0px;
+	margin-left: 80px;
+
+}
+div.honorcontent{
+	background-color: rgb(230,230,230);
+	width:760px;
+	margin:0px 20px 20px 20px;
+	padding-top: 20px;
+	border-radius: 0px 0px 20px 20px/0px 0px 20px 20px;
+	line-height: 2em;
+}
+div.volunteertitle{
+	background-color: rgb(230,230,230);
+	background-image: url("img/volunteer.png");
 	background-repeat: no-repeat;
-	background-size: 30px auto;
 	background-clip: content-box;
-	}
-.project .projecttitle:after{
-	content: "项目、实习经历";
+	background-size: auto 35px;
+	background-position: 8px;
+	font-size: 30px;
+	font-weight: bold;
+	width:760px;
+	margin:20px 20px 0px 20px;
+	border-radius: 20px 20px 0px 0px/20px 20px 0px 0px;
+
+}
+div.volunteertitle:after{
+	content:"志愿服务";
 	display: block;
-	margin-left: 55px;
-	font-size: 28px;
-	line-height: 30px;
-	}
-.project .section{
-	padding: 25px 10px;
-	border-bottom: 2px rgb(200,200,200) dashed;
-	}
-.project .section .icon img{
-	float:left;
-	width:350px;
-	height:162px;
-	margin-left: 20px;
-	border-radius: 5px;
-	background: #666;
-	}
-.project .section .description{
-	float:left;
-	margin-left: 20px;
-	width:350px;
-	font-family: STKaiTi;
-	font-size: 16px;
-	}
+	margin-left: 80px;
+
+}
+div.volunteercontent{
+	background-color: rgb(230,230,230);
+	width:760px;
+	margin:0px 20px 20px 20px;
+	padding-top: 20px;
+	border-radius: 0px 0px 20px 20px/0px 0px 20px 20px;
+	line-height: 2em;
+}
+div.practicetitle{
+	background-color: rgb(230,230,230);
+	background-image: url("img/practice.png");
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	background-size: auto 35px;
+	background-position: 8px;
+	font-size: 30px;
+	font-weight: bold;
+	width:760px;
+	margin:20px 20px 0px 20px;
+	border-radius: 20px 20px 0px 0px/20px 20px 0px 0px;
+
+}
+div.practicetitle:after{
+	content:"项目实践";
+	display: block;
+	margin-left: 80px;
+
+}
+div.practicecontent{
+	background-color: rgb(230,230,230);
+	width:760px;
+	margin:0px 20px 20px 20px;
+	padding-bottom: 20px;
+	border-radius: 0px 0px 20px 20px/0px 0px 20px 20px;
+	line-height: 2em;
+}
+div.practicecontent .project{
+	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	margin-right: 20px;
+	border-bottom: 2px dashed rgb(40,40,40)
+}
+.website{
+	color: black;
+}
+.container{
+	display: flex;
+	justify-content: flex-start;
+}
+.container .first{
+	width: 180px;
+}
+.container .second{
+	width: 200px;
+}
+.container .third{
+	width: 220px;
+}
+.container .forth{
+	width: 100px;
+}
+.container .fifth{
+	width: 500px;
+}
+.img-project{
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+}
+.project:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.emphasize{
+	font-weight: bold;
+}
